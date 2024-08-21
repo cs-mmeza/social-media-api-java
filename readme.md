@@ -184,11 +184,11 @@ social-media-blog-api/
 ├── pom.xml
 └── README.md
 ```
-controllers/: Contains the SocialMediaController class where all endpoints are defined.
-dao/: Data Access Object layer handling direct interactions with the database.
-services/: Business logic layer that processes data before passing it between the controller and DAO layers.
-models/: Contains the data models Account and Message.
-util/: Utility classes like ConnectionUtil for database connections.
-resources/: Contains SQL scripts and configuration files.
-test/: Contains integration tests to verify the functionality of the API.
+- `controllers/`: Contains the SocialMediaController class where all endpoints are defined.
+- `dao/`: Data Access Object layer handling direct interactions with the database.
+- `services/`: Business logic layer that processes data before passing it between the controller and DAO layers.
+- `models/`: Contains the data models Account and Message.
+- `util/`: Utility classes like ConnectionUtil for database connections.
+- `resources/`: Contains SQL scripts and configuration files.
+- `test/`: Contains integration tests to verify the functionality of the API.
      - `400 Bad Request`: Invalid update details.
