@@ -6,10 +6,9 @@
 - [Technologies Used](#technologies-used)
 - [Database Schema](#database-schema)
 - [API Endpoints](#api-endpoints)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Running the Application](#running-the-application)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Running the Application](#running-the-application)
 - [Project Structure](#project-structure)
 
 ## Overview
@@ -114,13 +113,13 @@ CREATE TABLE Message (
    - Response:
      - `200 OK`: Returns a list of messages posted by the user.
 
-## Getting Started
-### Prerequisites
+## Prerequisites
 - Java Development Kit (JDK) 8 or higher
 - Maven (for project build and dependency management)
 - Database: H2 Database is recommended for testing purposes, but you can use any relational database (e.g., MySQL, PostgreSQL).
 - Git (for version control)
-#### Installation
+
+## Installation
 
 1. Clone the Repository
 ```bash
