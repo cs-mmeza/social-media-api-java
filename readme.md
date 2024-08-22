@@ -179,11 +179,18 @@ social-media-blog-api/
 │   │       └── schema.sql
 │   └── test/
 │       └── java/
-│           └── integration/
-│               └── IntegrationTests.java
+│           ├──CreateMessageTest.java
+│           ├──DeleteMessageByMessageIdTest.java
+│           ├──RetrieveAllMessagesForUserTest.java
+│           ├──RetrieveAllMessagesTest.java
+│           ├──RetrieveMessageByMessageIdTest.java
+│           ├──UpdateMessageTextTest.java
+│           ├──UserLoginTest.java
+│           └──UserRegistrationTest.java
 ├── pom.xml
 └── README.md
 ```
+
 - `controllers/`: Contains the SocialMediaController class where all endpoints are defined.
 - `dao/`: Data Access Object layer handling direct interactions with the database.
 - `services/`: Business logic layer that processes data before passing it between the controller and DAO layers.
